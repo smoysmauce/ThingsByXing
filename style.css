@@ -1,0 +1,31 @@
+body {
+    color: #000000;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 3rem rgba(49, 49, 49, 0.5);
+}
+
+.skillico {
+    display: inline-block;
+    height: 130px;
+    vertical-align: middle;
+}
+
+.skilltext {
+    font-size: 15px;
+}
+
+.project-padding {
+    padding: 16px 16px;
+}
+
+/* GALLERY */
+
+.projdis {
+    transition-duration: 0.3s;
+
+}
+
+.projdis:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
