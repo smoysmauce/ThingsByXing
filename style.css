@@ -40,7 +40,7 @@ body {
 }
 
 .projdis:hover {
-    box-shadow: 0 0rem 3rem #949494;
+    box-shadow: 0 0rem 1rem #949494;
     transition-duration: 0.3s;
 }
 

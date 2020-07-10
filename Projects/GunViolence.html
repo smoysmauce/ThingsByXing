@@ -12,7 +12,6 @@
   </head>
   <body>
     <div class="container-fluid">
-    
       <nav class="navbar navbar-expand-lg navbar-light" style="padding: 15px 80px;">
         <a class="navbar-brand" href="/index.html"><img src="/images/Logo.png" alt="Things By Xing" width="100"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigations-04" aria-controls="navigations-04" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -28,12 +27,47 @@
       </nav>
     </div>
 
-    <section class="py-5">
-      <div class="container text-center">
-        <h2>Data Visualisation: Correlation of Gun Sales to Violence</h2>
-        <img class="img-fluid my-4 videoshadow" src="/images/GunViolence/Gun Violence.jpg" alt="">
+    
+    <!-- Head -->
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4 my-md-auto pb-5">
+              <h4>Data Visualisation</h4>
+              <h2 class="display-4 mb-4">A Decade of Gun Violence in the US</h2>
+            </div>
+            <div class="col-md-6">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-xl"><img class="img-fluid videoshadow" src="/images/GunViolence/Gun Violence.jpg" alt=""></a>
+              <p class="lead text-muted mb-4">Click to enlarge</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <img class="img-fluid" src="/images/GunViolence/Gun Violence.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Text -->
+    <section>
+      <div class="container">
+        <h2>Design Justification</h2>
+        <p class="py-2">The dataset chosen revealed statistics on annual US firearm sales by state from 1998 to 2017, as well as every mass shooting incident from 1982 to 2017. I chose to capture and correlate the data of firearm sales and mass shooting incidents within a decade starting from 2006, and highlight the rising trends between both statistics. As the data touches on a very serious and severe issue, I wanted to convey the escalating urgency portrayed by the statistics through a dynamic illustration, as opposed to a simple, clean column graph layout, and play on the theme of fear. My final design features an image of a young girl screaming, with her rising volume depicted by the similarly-rising column graphs from the correlating data sets.</p>
+        <p class="py-2">The design is purposefully made striking and unpleasant, reflecting the reality of the issue. The serif title is clear on setting the context and tone (Cullen, 2007), and bright, blood-like colours and graphics are implemented in the column graphs to ensure the statistics remain the main focus of the design by visually advancing from the dark background (Bosler, n.d.), as well as set a very grim tone. This effect is also achieved through using photos rather than illustrations for the girl and the bullet, recreating a harrowingly possible scene in real life (Bosler, n.d.). The blue concentric lines in the background are there not only to perpetuate the narrative of the screaming girl with its appearance as sonar waves, but also to visually guide viewers through the data (Cullen, 2007). In regards to the graph itself, the decision was made to omit a y-axis as it portrays two sets of data that are gauged differently, and would result in more visual clutter if forced, leaving just the year axis which is relevant to both data sets and ties them together. All of these elements together create a chilling but clear visualisation of two data sets which would otherwise be seen rather plainly.</p>
+        <p class="py-2">In regards to the brief, I chose to lean more towards the story element of data visualisation as I found it difficult to create an engaging narrative with complicated statistics, resulting in a visualisation that is more focused on “sending a message” rather than effectively explaining detailed data sets. A particular critique that I have with my final design is that it is potentially too overcrowded with text and graphics, resulting in cognitive overload. An attempt to rectify this issue has been made by implementing the visual direction with the concentric circles and reducing graphic sizes, but more breathing space between elements would be desirable.</p>
       </div>
     </section>
+
 
     <footer class="py-5">
       <div class="container text-center">
@@ -42,4 +76,8 @@
         <p class="lead">Designed by Andrew Xing</p>
       </div>
     </footer>
+
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/popper/popper.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
 </body>

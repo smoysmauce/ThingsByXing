@@ -28,10 +28,65 @@
       </nav>
     </div>
 
-    <section class="py-5">
+    <!-- Head -->
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4 my-md-auto pb-5">
+              <h4>Data Visualisation</h4>
+              <h2 class="display-4 mb-4">South Korea </br>Suicide Chart</h2>
+            </div>
+            <div class="col-md-6">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-xl"><img class="img-fluid videoshadow" src="/images/KoreaChart/KoreaChart.jpg" alt=""></a>
+              <p class="lead text-muted mb-4">Click to enlarge</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <img class="img-fluid" src="/images/KoreaChart/KoreaChart.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Text -->
+    <section>
+      <div class="container">
+        <h2 class="pb-2" style="padding-left: 1rem;">Design Justification</h2>
+        <p class="py-2">This visualisation is the product of many attempts to portray large amounts of data in minimal space, revealing data in an approach similar to that of scatter plots. The visualisation conveys four variables with its nodes in distinct ways: gender by set, year by position, age group by colour and suicide numbers by size, altogether revealing the severity of suicide numbers between age groups in South Korea.</p>
+        <div class="row">
+          <div class="col-md-9 mb-4 my-md-auto">
+            <p class="py-2">Given the morose subject matter, a minimalistic approach was taken to visualise the data to ensure attention isn’t taken away from the chart itself. The narrative and theme of death is subtly contrived by the dull red and blue colours on the light background, which can be likened to bruises and blood clots on a dead body, and perpetuate the melancholy tone of the visualisation (Bosler, n.d.). Textual information is kept relatively scarce, and also given a darker shade of grey to remain unobtrusive from the data. The graph is explained with a single annotation, keeping chart junk to a minimum for a clearer visualisation (Bosler, n.d.).
+            </p>
+          </div>
+          <div class="col-md-3 my-md-auto">  
+            <img class="img-fluid" src="/images/KoreaChart/Guide.png" alt="">
+            <p class="lead text-muted" style="font-size: 1.1rem;"><i>The graph is explained with a single annotation</i></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 my-md-auto">
+            <p class="py-2">The circular form of the chart serves many functions as a design aspect. It solves the aforementioned challenge of integrating the year variable in an organised fashion, whilst still being a unique, interesting visual, as opposed to a regular scatter plot. It utilises the growing intensity of the nodes to make efficient use of space, which was a challenge presented by our absurdly large column graph. Whilst in this structure, several principles of Gestalt Theory, such as proximity and similarity, can also be applied to the nodes to distinguish them from each other and allows them to portray each variable clearly (Wertheimer, 1938). As a final point, the concentric nature of the chart acts as a visual vector for the audience, being initially drawn to the title to understand the context, then to the chart around it (Cullen, 2007). The collaboration of these design details results in a visually aesthetic, yet clear and readable final visualisation.</p>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="/images/KoreaChart/Space.png" style="height: 15rem;" alt="">
+            <p class="lead text-muted" style="font-size: 1.1rem;"><i>The growing intensity of the nodes is utiilsed to make efficient use of space</i></p>
+          </div>
+        </div>
+        
+      </div>
       <div class="container text-center">
-        <h2>Data Visualisation: South Korea Suicide Chart</h2>
-        <img class="img-fluid my-4 videoshadow" src="/images/KoreaChart/KoreaChart.jpg" alt="">
+        <p class="text-muted py-4">This graphic was conceptualized through the EDA (Exploratory Data Analysis) process for DECO3100 Information Visualisation Design Studio. </br></br> <a href="/images/KoreaChart/axin2107_mfem6497_hkim3384_A2_DECO3100.pdf" target="_blank">View the entire report here</a> </p>
       </div>
     </section>
 
@@ -42,4 +97,7 @@
         <p class="lead">Designed by Andrew Xing</p>
       </div>
     </footer>
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/popper/popper.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
 </body>
