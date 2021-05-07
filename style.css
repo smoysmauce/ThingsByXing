@@ -122,6 +122,10 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica N
 .full-width {
 	max-width: 100%;
 	position: relative;
-    justify-content: center;
-	width: 95vw;
+    text-align: center;
+	width: 90vw;
+}
+
+.img-container {
+    text-align: center;
 }
